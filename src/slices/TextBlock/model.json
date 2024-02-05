@@ -20,6 +20,36 @@
             "allowTargetBlank": true,
             "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
+        },
+        "deployed_link_text": {
+          "type": "Text",
+          "config": {
+            "label": "deployed_link_text",
+            "placeholder": ""
+          }
+        },
+        "deployed_link": {
+          "type": "Link",
+          "config": {
+            "label": "deployed_link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "github_link_text": {
+          "type": "Text",
+          "config": {
+            "label": "github_link_text",
+            "placeholder": ""
+          }
+        },
+        "github_link": {
+          "type": "Link",
+          "config": {
+            "label": "github_link",
+            "placeholder": "",
+            "select": null
+          }
         }
       },
       "items": {}

@@ -13,6 +13,30 @@
 						}
 					}
 				]
+			},
+			"deployed_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com"
+				}
+			},
+			"github_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io"
+				}
+			},
+			"deployed_link_text": {
+				"__TYPE__": "FieldContent",
+				"value": "struggle",
+				"type": "Text"
+			},
+			"github_link_text": {
+				"__TYPE__": "FieldContent",
+				"value": "library",
+				"type": "Text"
 			}
 		},
 		"items": []

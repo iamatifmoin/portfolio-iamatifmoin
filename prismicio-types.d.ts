@@ -935,6 +935,46 @@ export interface TextBlockSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */
   text: prismic.RichTextField;
+
+  /**
+   * deployed_link_text field in *TextBlock → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: text_block.primary.deployed_link_text
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  deployed_link_text: prismic.KeyTextField;
+
+  /**
+   * deployed_link field in *TextBlock → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: text_block.primary.deployed_link
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  deployed_link: prismic.LinkField;
+
+  /**
+   * github_link_text field in *TextBlock → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: text_block.primary.github_link_text
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  github_link_text: prismic.KeyTextField;
+
+  /**
+   * github_link field in *TextBlock → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: text_block.primary.github_link
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  github_link: prismic.LinkField;
 }
 
 /**
