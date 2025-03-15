@@ -17,16 +17,6 @@ export default function NavBar({
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
-  const handleClick = (label: KeyTextField) => {
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      event: "cta_click",
-      category: "CTA",
-      label: "Resume",
-      value: 1,
-    });
-  };
-
   return (
     <nav aria-label="Main navigation">
       <ul className="flex flex-col justify-between rounded-b-lg bg-slate-50 px-4 py-2 md:m-4 md:flex-row md:items-center md:rounded-xl">
@@ -96,7 +86,6 @@ export default function NavBar({
               linkField={settings.data.cta_link}
               label={settings.data.cta_label}
               className="ml-3"
-              onClick={() => handleClick(settings.data.cta_label)}
             />
           </li>
         </div>
